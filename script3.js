@@ -11,3 +11,14 @@
 //  # # # #
 
 
+let loopingVariable = 0;
+while (loopingVariable <= 7){
+    if (loopingVariable % 2 == 0){
+        console.log("# # # #"); 
+    } else if (loopingVariable % 2 == 1){
+        console.log(" # # # #");
+    } else {
+        console.log("Input number is 0 or invalid.");
+    }
+    loopingVariable += 1;
+}
