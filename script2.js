@@ -10,3 +10,20 @@
 // FizzBuzz
 // ...
 
+let loopingVariable = 0;
+while (loopingVariable <= 100){
+    
+    } if (loopingVariable % 5 == 0){
+        console.log("Buzz");
+    }
+    else if (loopingVariable % 3 == 0){
+    console.log("Fizz");
+    } 
+    else {
+        console.log("Input number is 0 or invalid.");
+    }
+    if (loopingVariable % 1 == 0){
+        console.log(loopingVariable); 
+    
+    loopingVariable += 1;
+}
