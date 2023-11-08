@@ -12,12 +12,19 @@
 
 let loopingVariable = 1;
 while (loopingVariable <= 100){
-    console.log(loopingVariable);
-    
-    if (loopingVariable % 3 == 0)
-        console.log("Fizz");
 
-      else if (loopingVariable % 5 == 0)
+    if (loopingVariable % 3 == 0 && loopingVariable % 5 == 0){
+      console.log("FizzBuzz");
+    
+    }else if (loopingVariable % 3 == 0){
+        console.log("Fizz");
+    }
+    else if (loopingVariable % 5 == 0){
         console.log("Buzz");
+
+    }else if (loopingVariable){
+    console.log(loopingVariable);
+    }
+    
     loopingVariable += 1;
 }
